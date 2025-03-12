@@ -2,7 +2,7 @@
  * Sets, stores, returns, and prints a country's data
  * 
  * @author Shirley Chen
- * @version 03/09/2025
+ * @version 03/12/2025
  */
 public class Country 
 {
@@ -220,5 +220,6 @@ public class Country
 		System.out.printf("%-35s%-20s%-13.3f%-13.6f%-14.3f\n", name, capital, gdp/population, area/population, happinessIndex);
 	
 	}//end printCountry
+	
 
 }//end Country class
